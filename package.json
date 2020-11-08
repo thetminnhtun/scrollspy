@@ -1,0 +1,34 @@
+{
+  "name": "js-scrollspy",
+  "version": "1.0.0",
+  "description": "Dynamicaly change active nav link whenever scroll",
+  "directories": {
+    "test": "test"
+  },
+  "source": "src/index.js",
+  "main": "dist/scrollspy.js",
+  "module": "dist/scrollspy.module.js",
+  "unpkg": "dist/scrollspy.umd.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thetminnhtun/scroll-spy-navbar.git"
+  },
+  "keywords": [
+    "scroll spy",
+    "js",
+    "javascript",
+    "scroll",
+    "spy",
+    "navbar"
+  ],
+  "author": "Thet Minn Htun",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.12.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
